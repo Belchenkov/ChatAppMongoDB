@@ -1,15 +1,15 @@
 {
-  "name": "mongochat",
-  "version": "1.0.0",
-  "description": "Simple Chat App using Socket.io",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Aleksey Belchenkov",
-  "license": "ISC",
-  "dependencies": {
-    "mongodb": "^2.2.30",
-    "socket.io": "^2.0.3"
-  }
+    "name": "mongochat",
+    "version": "1.0.0",
+    "description": "Simple Chat App using Socket.io",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Aleksey Belchenkov",
+    "license": "ISC",
+    "dependencies": {
+        "mongodb": "^2.2.30",
+        "socket.io": "^2.0.3"
+    }
 }
