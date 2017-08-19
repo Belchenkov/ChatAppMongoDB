@@ -44,7 +44,7 @@ mongo.connect('mongodb://belchenkov:mongomaster88@ds127783.mlab.com:27783/chat-a
 
                     // Send status object
                     sendStatus({
-                        message: 'Message send',
+                        message: '<span class="alert alert-success">Message send</span>',
                         clear: true
                     });
                 });

@@ -24,3 +24,14 @@ input#username,
 textarea#textarea {
     font-size: 1.2em;
 }
+
+.card-block {
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Slabo 27px', serif;
+    text-shadow: 0 1px 3px #000000!important;
+}
+
+.card-block strong {
+    border-bottom: 1px solid #fff;
+}
